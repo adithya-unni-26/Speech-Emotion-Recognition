@@ -1,8 +1,14 @@
-# [How to Make a Speech Emotion Recognizer Using Python And Scikit-learn](https://www.thepythoncode.com/article/building-a-speech-emotion-recognizer-using-sklearn)
+Speech Emotion Recognition
 To run this, you need to:
-- `pip3 install -r requirements.txt`
+install the following packages using the Pip installer:
 
-It is already trained, you can use `test.py` to test your voice.
+1. librosa
+2. soundfile
+3. numpy
+4. sklearn
+5. pyaudio
+6. numba
+- is already trained, you can use `test.py` to test your voice.
 
 You can:
 - Tweak the model parameters ( or the whole model ) in `ser.py`.
